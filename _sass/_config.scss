@@ -1,0 +1,22 @@
+// Colors
+$black: #113654;
+$dark-gray: #A7AEB4;
+$light-gray: #E7E9EB;
+$accent: #9AF7D3;
+$soft-accent: #6799FF;
+
+// Corp-Colors
+$corp-color: $accent !default;
+$corp-color-second: $soft-accent !default;
+
+// Fonts
+$base-font-family: Lato, Arial, Sans-Serif !default;
+$base-font-size: 18px !default;
+$base-font-color: $black !default;
+$title-font-family: Montserrat, Arial, Sans-Serif !default;
+
+// Misc
+$base-border-color: $light-gray !default;
+$base-border-radius: 3px !default;
+
+$link-color: $soft-accent !default;

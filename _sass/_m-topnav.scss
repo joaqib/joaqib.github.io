@@ -1,0 +1,83 @@
+.topnav {
+  padding: 15px;
+  display: flex;
+  border-bottom: 1px solid $light-gray
+}
+
+.topnav__logo {
+  font-size: 15px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  h1 {
+    margin: 0;
+  }
+}
+
+
+// -------  hamburger menu  ---------
+
+$barHeight: 2px;
+
+.Burger-icon {
+  height: 20px;
+  width: 25px;
+  position: absolute;
+  padding: 0;
+  background: none;
+  border: 0;
+  top: 25px;
+}
+
+.Burger-icon-bar {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: $barHeight;
+  background: black;
+  transition: 0.3s;
+  border-radius: $barHeight/2;
+
+  &:nth-child(1) {
+  top: 0;
+  }
+
+  &:nth-child(2) {
+  top: 50%;
+  transform: translateY(-50%)
+  }
+  
+  &:nth-child(3) {
+  bottom: 0;
+  }
+}
+
+.slideout-open .Burger-icon {
+  .Burger-icon-bar:nth-child(1),
+  .Burger-icon-bar:nth-child(3) {
+    width: 50%;
+    transform-origin: $barHeight/2 center;
+  }
+
+  .Burger-icon-bar:nth-child(1) {
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
+  }
+
+  .Burger-icon-bar:nth-child(3) {
+    bottom: 50%;
+    transform: translateY(50%) rotate(45deg);
+  }
+}
+
+
+// base
+button {
+  cursor: pointer;
+}
+
+button:focus {
+  outline: 0;
+}
