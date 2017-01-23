@@ -25,6 +25,9 @@
 	input {
 		border: 1px solid $light-gray;
 		padding: 8px;
+		@media (max-width: 400px) {
+			width: 170px;
+		}
 	}
 	button {
 	    cursor: pointer;
@@ -32,7 +35,7 @@
 	    letter-spacing: 2px;
 	    text-transform: uppercase;
 	    box-sizing: border-box;
-	    max-width: 120px;
+	    max-width: 100px;
 	    font-size: 12px;
 	   	background-color: #6799FF;
 	    border: 1px solid #6799FF;

@@ -2,6 +2,7 @@
 	display: flex;
     height: calc(100vh - 68px);
     max-height: 600px;
+    min-height: 500px;
     align-items: center;
     justify-content: center;
 }
@@ -15,6 +16,9 @@
 	font-family: $title-font-family;
 	font-weight: 400;
 	margin-top: 0;
+	@media (max-width: 450px) {
+		font-size: 1.5rem;
+	}
 }
 
 .home-cover__subtitle {
