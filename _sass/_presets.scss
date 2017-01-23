@@ -33,8 +33,10 @@ a {
   text-shadow: 3px 3px 0px rgba(153,247,211,0.79);
 }
 
-.invisible {
-  display: none !important;
+.invisible-xs {
+  @media (max-width: 600px) {
+   display: none !important; 
+  }
 }
 
 h1 {
