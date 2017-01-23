@@ -2,8 +2,17 @@
 sitemap: false
 ---
 
+// Config
+
 @import "config";
 @import "presets";
+
+// Modules
+
 @import "m-slideout";
 @import "m-topnav";
-@import "l-home"
+
+// Layouts
+
+@import "l-home";
+@import "l-form";
