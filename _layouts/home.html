@@ -5,7 +5,28 @@
 </head>
 <body>
 {% include header.html %}
-<section class="home-cover">
+ <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="pitch">
+                        <h1 class="logo">GrowthMile</h1><!-- This is place for simple premise, value proposition that will be easy to understand -->
+                        <p class="MoreInfo">Marketing Digital Técnico para potenciar tu negocio.<br> Utilizamos las herramientas más potentes para conseguir resultados</p><!-- Tell people what is your product (here it's template), what is your product for (convinsing people) and what's their main benefit (easy-to-use, obviously :D)  -->
+						<p class="CallToAction">Dejanos tu email para recibir información de como lo conseguimos</p><!-- firs "now what?" moment. Tell people what they should do and why they should do it -->
+						<!-- Begin MailChimp Signup Form -->
+						<div class="CallToAction__form">
+							<form action="https://formspree.io/your@email.com" method="POST" > 
+								<input class="cta-email" type="email" name="_replyto">
+								<input class="cta-send" type="submit" value="Send">
+							</form>
+						</div>
+						<!--End mc_embed_signup-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<!-- <section class="home-cover">
 	<div class="home-cover__content">
 		<h1 class="home-cover__title">Marketing Digital Tecnico para potenciar tu negocio</h1>
 		<div class="home-cover__options tab-container">
@@ -63,10 +84,14 @@
 	  		</script>
 		</div>
 	</div>
-</section>
-<section class="home-vp">
-	<div class="home-vp__content">
-		<p>GrowthMile es un nuevo enfoque al Marketing Digital.</p>
+</section> -->
+<section class="container-fluid home-vp">
+	<div class="container">
+	<div class="row">
+		<div class="col"><img src="media/danone-logo.png" alt=""></div>
+		<div class="col"><img src="media/ssangyong-logo.png" alt=""></div>
+		<div class="col"><img src="media/berlinprime-logo.png" alt="" style="max-width: 130px;"></div>
+	</div>
 	</div>
 </section>
 
@@ -90,7 +115,29 @@
     </div>
   </div>
 </section>
+
+<section>
+	<div class="container">
+        <div class="row">
+			<div class="col-md-12">
+				<h2 class="bigh">What does people say<br>about our concept?</h2>
+				<div class="row testimonials">
+					<div class="col-md-6">
+						<h3 class="person">John Someone</h3>
+						<p class="job">CEO of SomeThing App</p>
+						<p class="recommendation">Crud ethereal considering where ladybug cuckoo mammoth koala bitter and that far judiciously a jeepers goose special that and precocious climbed eel stridently.</p>
+					</div>
+					<div class="col-md-6">
+						<h3 class="person">Bill Everyman</h3>
+						<p class="job">Very Important Person</p>
+						<p class="recommendation">Much imminently strongly wildebeest well ambitiously jeez one out built newt by however this jeez this crucial the pinched grizzly since yikes ouch thought far oh.</p>
+					</div>
+				</div>
+            </div>
+        </div>
+    </div>
+</section>
 <!-- == END OF ABOUT 06 ==-->
-{{ content }}
+{% include footer.html %}
 
 {% include scripts.html %}
