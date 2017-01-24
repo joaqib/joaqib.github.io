@@ -6,6 +6,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 <script src="/assets/js/slideout.min.js" async></script>
 <script>
+document.addEventListener("DOMContentLoaded", function(){
+  // Handler when the DOM is fully loaded
   var slideout = new Slideout({
     'panel': document.getElementById('panel'),
     'menu': document.getElementById('menu'),
@@ -16,6 +18,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   document.querySelector('.toggle-button').addEventListener('click', function() {
     slideout.toggle();
   });
+});
 </script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js" async></script>
 <script type="text/javascript">
