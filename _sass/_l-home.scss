@@ -14,13 +14,6 @@ p {
 	margin: 16px 0;
 }
 
-a {
-	color: #404040;
-}
-a:hover,
-a:focus {
-	color: #a03333;
-}
 hr.thin {
 	max-width: 60px;
 	margin: 15px auto;
@@ -55,7 +48,8 @@ hr.thin {
 
 header .pitch {
 	padding: 120px 0 50px;
-	height: calc(100vh - 90px);
+	height: calc(100vh - 113px);
+	max-height: 720px;
 	color: #000000;
 	text-align: center;
 	@media (max-width: 450px) {
