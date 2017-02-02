@@ -7,84 +7,22 @@
 {% include header.html %}
  <header>
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="pitch">
-                        <h1 class="logo">GrowthMile</h1><!-- This is place for simple premise, value proposition that will be easy to understand -->
-                        <p class="MoreInfo">Marketing Digital Técnico para potenciar tu negocio.<br> Utilizamos las herramientas más potentes para conseguir resultados</p><!-- Tell people what is your product (here it's template), what is your product for (convinsing people) and what's their main benefit (easy-to-use, obviously :D)  -->
-						<p class="CallToAction">Dejanos tu email para recibir información de como lo conseguimos</p><!-- firs "now what?" moment. Tell people what they should do and why they should do it -->
-						<!-- Begin MailChimp Signup Form -->
+            <div class="row justify-content-center">
+                    <div class="col home-hero">
+                        <h1 class="logo">GrowthMile</h1>
+                        <p class="subtitle">¿Lanzando un negocio y necesitas ayuda para despegar?</p>
+						<p class="home-hero__text"><span style="font-weight: bold;">Marketing Digital Técnico</span> para potenciar tu negocio. Ayudamos a Startups y otros negocios a definir, diseñar, lanzar y analizar su presencia online</p>
+						<p class="CallToAction">Dejanos tu email para recibir información de como te ayudamos</p>
 						<div class="CallToAction__form">
 							<form id="Home-PrimaryCTA" action="https://formspree.io/your@email.com" method="POST" > 
 								<input class="cta-email" type="email" name="_replyto">
 								<input class="cta-send" type="submit" value="Send">
 							</form>
 						</div>
-						<!--End mc_embed_signup-->
                     </div>
                 </div>
             </div>
-        </div>
     </header>
-<!-- <section class="home-cover">
-	<div class="home-cover__content">
-		<h1 class="home-cover__title">Marketing Digital Tecnico para potenciar tu negocio</h1>
-		<div class="home-cover__options tab-container">
-			<div id="home-cover__card1" class="card home-cover__card">
-				<img src="media/web-dev.png" alt="" class="card__header">
-				<h4 class="card__title">Necesito una Web</h4>
-				<ul class="card__features">
-					<li>Diseño Responsive</li>
-					<li>Optimización Buscadores</li>
-					<li>Implementación Analytics</li>
-					<a href="/form"><h5 class="card__cta">Continuar <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-</h5>
-				</ul>
-			</div>
-			<div id="home-cover__card2" class="card home-cover__card invisible-xs">
-				<img src="media/mkt.png" alt="" class="card__header">
-				<h4 class="card__title">Necesito Crecer</h4>
-				<ul class="card__features">
-					<li>Auditoría SEO</li>
-					<li>Implementación Analytics</li>
-					<li>Busqueda de Canales</li>
-				</ul>
-				<a href="/form"><h5 class="card__cta">Continuar <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-</h5>
-			</div>
-			<div class="tab-container__footer">
-				<button id="home-cover__button1" class="active">Desarrollo Web</button>
-				<button id="home-cover__button2" class="">Marketing Digital</button>
-			</div>
-			<script>
-				document.addEventListener("DOMContentLoaded", function(){
- 					var card1 = $("#home-cover__card1");
-				    var card2 = $("#home-cover__card2");
-				    var button1 = $("#home-cover__button1");
-				    var button2 = $("#home-cover__button2");
-
-				    button1.click(function() {
-					    if (card1.hasClass( "invisible-xs")) {
-					    	card2.addClass("invisible-xs");
-					    	card1.removeClass("invisible-xs");
-					    	button1.addClass("active");
-					    	button2.removeClass("active");
-					    }
-					});
-
-				    button2.click(function() {
-					    if (card2.hasClass( "invisible-xs")) {
-					    	card1.addClass("invisible-xs");
-					    	card2.removeClass("invisible-xs");
-					    	button2.addClass("active");
-					    	button1.removeClass("active");
-					    }
-					});
-				});
-	  		</script>
-		</div>
-	</div>
-</section> -->
 <section class="container-fluid home-vp">
 	<div class="container">
 	<div class="row">
@@ -94,50 +32,67 @@
 	</div>
 	</div>
 </section>
-
-<!-- == START OF ABOUT 06 ==-->
-<section class="about" style="background-image: url(media/berlinprime_mac.png);">
-  <div class="container about__container">
-    <div class="about__title_box">
-      <h2 class="about__title">Nuevas soluciones<br/>para tu presencia online</h2><span class="about__description">Flexibilidad y rapidez son las cualidades necesarias para el éxito de tu proyecto</span>
-    </div>
-    <div class="row about__row">
-      <div class="col-md-6 col-lg-3 about__feature_item">
-        <div class="about__item_icon"><i class="fa fa-file-code-o" aria-hidden="true"></i>
+<section>
+<div class="container">
+	            <div class="row pitch">
+                <p class="MoreInfo col-12">Servicios</p>
+            	<div class="col-md-6 service"><h2>Lanzamiento llave en mano</h2>
+					<p>Nosotros te creamos una Landing Page para tu proyecto. Diseñada, redactada y lanzada por profesionales. Consigue tu página online, por un precio fijo en días, recopilando la información que necesitas para entender a tus clientes.</p>
+            		<a href="/form">Más Información</a>
+            	</div>
+            	<div class="col-md-6"><h2>Potencia tu presencia online</h2>
+					<p>Analizamos el comportamiento de tus usuarios para comprender posibles ineficiencias. Una vez encontradas trabajamos en equipo para optimizar los elementos que entorpecen en el ratio de conversión de tu negocio.</p>
+            		<a href="/form">Más Información</a>
+            	</div>
+            </div>
 </div>
-        <h3 class="about__feature_item_title">Desarrollo Web</h3><span class="about__item_text">Utilizamos las tecnologías que mejor se adaptan a tu proyecto maximizando siempre la facilidad de personalización.</span><a class="about__item_link" id="Home-MoreInfoDevelopment" href="/form">Más información</a>
-      </div>
-      <div class="col-md-6 col-lg-3 about__feature_item">
-        <div class="about__item_icon"><i class="fa fa-area-chart" aria-hidden="true"></i>
-</div>
-        <h3 class="about__feature_item_title">Analítica</h3><span class="about__item_text">Optimizamos e implementamos herramientas de analitica en la pagina de tu proyecto para conseguir informes detallados.</span><a class="about__item_link" id="Home-MoreInfoAnalytics" href="/form">Más información</a>
-      </div>
-    </div>
-  </div>
 </section>
-
-<!-- <section>
-	<div class="container">
-        <div class="row">
-			<div class="col-md-12">
-				<h2 class="bigh">What does people say<br>about our concept?</h2>
-				<div class="row testimonials">
-					<div class="col-md-6">
-						<h3 class="person">John Someone</h3>
-						<p class="job">CEO of SomeThing App</p>
-						<p class="recommendation">Crud ethereal considering where ladybug cuckoo mammoth koala bitter and that far judiciously a jeepers goose special that and precocious climbed eel stridently.</p>
+<section class="container-fluid process">
+	<h2 class="title">¿Cómo trabajamos dentro GrowthMile?</h2>
+	<div class="container hero center-content">
+		<div class="row" style="margin-bottom: 48px;">
+			<div class="col-md-6">
+				<div class="process-container">
+    				<span class="line"></span>
+					<div class="step">
+						<div class="step-container">
+						<div class="row">
+							<div class="col-2"><p class="square">1</p></div>
+							<div class="col-10 step__text">Una vez nos hemos reunido, nuestro equipo analiza y diseña una Landing Page para conseguir tus objetivos</div>
+						</div>
+						</div>
 					</div>
-					<div class="col-md-6">
-						<h3 class="person">Bill Everyman</h3>
-						<p class="job">Very Important Person</p>
-						<p class="recommendation">Much imminently strongly wildebeest well ambitiously jeez one out built newt by however this jeez this crucial the pinched grizzly since yikes ouch thought far oh.</p>
+					<div class="step">
+						<div class="step-container">
+						<div class="row">
+							<div class="col-2"><div class="triangle" ><span>2</span></div></div>
+							<div class="col-10 step__text">Con el diseño cerrado, los desarrolladores programan la página utilizando las mejores prácticas de desarrollo y SEO técnico</div>
+						</div>
+						</div>
+					</div>
+					<div class="step">
+						<div class="step-container">
+						<div class="row">
+							<div class="col-2"><p class="square">3</p></div>
+							<div class="col-10 step__text">Para que puedas conseguir información accionable instalamos herramientas de analítica y te montamos un servicio de reportes completo</div>
+						</div>
+						</div>
 					</div>
 				</div>
-            </div>
-        </div>
-    </div>
-</section> -->
-<!-- == END OF ABOUT 06 ==-->
+
+
+			</div>
+			<div class="col-md-6 process-card-container">
+				<div class="process-card">
+					<div class="process-card__title">Lanzamiento llave en mano</div>
+					<div class="process-card__text">Consigue resultados dramaticamente mejores que con una plantilla. Más rápido y barato que con una agencia o consultora</div>
+					<a href="/form"><button class="process-card__cta" >Obten Presupuesto</button></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
 {% include footer.html %}
 
 {% include scripts.html %}

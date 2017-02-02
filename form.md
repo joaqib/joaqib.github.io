@@ -12,9 +12,9 @@ layout: default
 	<div class="row"><textarea name="web" placeholder="Necesito saber que hacen mis clientes en mi pagina para poder optimizarla."></textarea></div>
 	
 	<h3>Email de Contacto</h3>
-	<div class="row">
+	<div class="row justify-content-center">
 	<div class="col-xs-6">
-		<input type="email" name="email" placeholder="Your email">
+		<input type="email" name="email" placeholder="Tu Email">
 	</div>
 	<div class="col-xs-6 button-container">
 		  <button type="submit">Contacta</button>

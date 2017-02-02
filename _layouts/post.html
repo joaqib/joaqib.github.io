@@ -1,5 +1,23 @@
 ---
 layout: default
 ---
+<article class="generic-post">
 
-{{ content }}
+	<div class="generic-post__title">
+		<h2>{{ page.title }}</h2>
+		<p>{{ page.excerpt }}</p>
+	</div>
+
+    {% if page.image.feature %}
+
+    <div class="generic-post__hero" style="background-image: url({{ site.url }}/media/{{ page.image.feature }});">
+    	
+    </div><img src="" class="entry-feature-image" alt="" >
+
+    {% endif %}
+	
+	<div class="generic-post__content">
+	{{ content }}
+	</div>
+
+  </article>
