@@ -53,6 +53,7 @@ hr.thin {
 .home-hero {
 	text-align: center;
     height: calc(100vh - 110px);
+    min-height: 550px;
     max-height: 800px;
     display: flex;
     align-items: center;
