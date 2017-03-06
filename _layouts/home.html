@@ -5,94 +5,50 @@
 </head>
 <body>
 {% include header.html %}
- <header>
-        <div class="container">
-            <div class="row justify-content-center">
-                    <div class="col home-hero">
-                        <h1 class="logo">GrowthMile</h1>
-                        <p class="subtitle">¿Lanzando un negocio y necesitas ayuda para despegar?</p>
-						<p class="home-hero__text"><span style="font-weight: bold;">Marketing Digital Técnico</span> para potenciar tu negocio. Ayudamos a Startups y otros negocios a definir, diseñar, lanzar y analizar su presencia online</p>
-						<p class="CallToAction">Dejanos tu email para recibir información de como te ayudamos</p>
-						<div class="CallToAction__form">
-							<form id="Home-PrimaryCTA" action="https://formspree.io/joaquin@growthmile.com" method="POST" > 
-								<input class="cta-email" type="email" name="_replyto">
-								<input class="cta-send" type="submit" value="Send">
-							</form>
-						</div>
-                    </div>
-                </div>
-            </div>
-    </header>
-<section class="container-fluid home-vp">
-	<div class="container">
-	<div class="row">
-		<div class="col"><img src="media/danone-logo.png" alt=""></div>
-		<div class="col"><img src="media/ssangyong-logo.png" alt=""></div>
-		<div class="col"><img src="media/berlinprime-logo.png" alt="" style="max-width: 130px;"></div>
-	</div>
-	</div>
-</section>
-<section>
-<div class="container">
-	            <div class="row pitch">
-                <p class="MoreInfo col-12">Servicios</p>
-            	<div class="col-md-6 service"><h2>Lanzamiento llave en mano</h2>
-					<p>Nosotros te creamos una Landing Page para tu proyecto. Diseñada, redactada y lanzada por profesionales. Consigue tu página online, por un precio fijo en días, recopilando la información que necesitas para entender a tus clientes.</p>
-            		<a href="/form">Más Información</a>
-            	</div>
-            	<div class="col-md-6"><h2>Potencia tu presencia online</h2>
-					<p>Analizamos el comportamiento de tus usuarios para comprender posibles ineficiencias. Una vez encontradas trabajamos en equipo para optimizar los elementos que entorpecen en el ratio de conversión de tu negocio.</p>
-            		<a href="/form">Más Información</a>
-            	</div>
-            </div>
-</div>
-</section>
-<section class="container-fluid process">
-	<h2 class="title">¿Cómo trabajamos dentro GrowthMile?</h2>
-	<div class="container hero center-content">
-		<div class="row" style="margin-bottom: 48px;">
-			<div class="col-md-6">
-				<div class="process-container">
-    				<span class="line"></span>
-					<div class="step">
-						<div class="step-container">
-						<div class="row">
-							<div class="col-2"><p class="square">1</p></div>
-							<div class="col-10 step__text">Una vez nos hemos reunido, nuestro equipo analiza y diseña una Landing Page para conseguir tus objetivos</div>
-						</div>
-						</div>
-					</div>
-					<div class="step">
-						<div class="step-container">
-						<div class="row">
-							<div class="col-2"><div class="triangle" ><span>2</span></div></div>
-							<div class="col-10 step__text">Con el diseño cerrado, los desarrolladores programan la página utilizando las mejores prácticas de desarrollo y SEO técnico</div>
-						</div>
-						</div>
-					</div>
-					<div class="step">
-						<div class="step-container">
-						<div class="row">
-							<div class="col-2"><p class="square">3</p></div>
-							<div class="col-10 step__text">Para que puedas conseguir información accionable instalamos herramientas de analítica y te montamos un servicio de reportes completo</div>
-						</div>
-						</div>
-					</div>
-				</div>
-
-
-			</div>
-			<div class="col-md-6 process-card-container">
-				<div class="process-card">
-					<div class="process-card__title">Lanzamiento llave en mano</div>
-					<div class="process-card__text">Consigue resultados dramaticamente mejores que con una plantilla. Más rápido y barato que con una agencia o consultora</div>
-					<a href="/form"><button class="process-card__cta" >Obten Presupuesto</button></a>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>
+ <div class="home-cover">
+    <div class="home-cover__container w-container">
+      <div class="home-cover__row w-row">
+        <div class="home-cover__column w-col w-col-6">
+          <div>
+            <h1 class="home-cover__title title">Agencia de Marketing Digital Técnico</h1>
+            <p class="home-cover__text">El mejor socio en tu negocio digital</p>
+            <p class="home-cover__text">Utilizamos las mejores herramientas y tecnologías para desatar el potencial de internet. Nuestro objetivo es claro: crecer</p>
+            <p class="home-cover__text home-cover__title">Analítica, tests A/B, diseño y desarrollo web</p>
+          </div>
+        </div>
+        <div class="home-cover__column w-col w-col-6" data-ix="hover-illustration">
+          <div class="home-cover__illustration" data-ix="cover-illustration"><img class="home-cover__illustration-photo1" src="images/fondo.svg"><img class="home-cover__illustration-photo2" data-ix="cover-2" src="images/layer2.svg"><img class="home-cover__illustration-photo3" data-ix="cover-3" src="images/layer3.svg">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="home-brands">
+    <div class="home-brands__container w-container"><img class="home-brands__img" src="images/danone-logo.png" width="120"><img class="home-brands__img" src="images/ssangyong-logo.png" width="120"><img class="home-brands__img" sizes="72px" src="images/berlinprime-logo.png" srcset="images/berlinprime-logo-p-500x171.png 500w, images/berlinprime-logo.png 528w" width="120">
+    </div>
+  </div>
+  <div class="home-motto">
+    <div class="w-container">
+      <h2 class="title">El Marketing Digital no es arte, es ciencia</h2>
+    </div>
+  </div>
+  <div class="home-why">
+    <div class="w-container">
+      <div class="home-why__row w-row">
+        <div class="home-why__left w-col w-col-6">
+          <p class="home-why__phrase">La tecnología nos permite tener el poder de análisis de distribución que antes solo los big players podían imaginar.</p>
+        </div>
+        <div class="w-col w-col-6">
+          <p class="home-why__explanation">Internet ofrece dos grandes ventajas competitivas, <strong>distribución</strong> e <strong>información</strong>.</p>
+          <p class="home-why__explanation">Ahora tenemos la posibilidad de llegar a millones de personas por una ínfima parte de lo que podríamos imaginar. Cada vez más las empresas generan <strong>motores de crecimiento</strong> dentro de su producto. Dropbox, Uber y Airbnb confiaron desde el principio en estrategias de viralización para disminuir el coste de adquisición de usuarios y crecer de formas exponenciales.</p>
+          <p class="home-why__explanation">Con las herramientas adecuadas somos capaces de registrar y <strong>analizar todas las acciones</strong> que realizan nuestros usuarios, esto nos permite mejorar más rápido y crecer con una mayor firmeza. Sabemos cómo se comporta nuestro cliente en las distintas partes de nuestro funnel y podemos actuar sobre ello.</p><a class="w-button" href="servicios-de-marketing-digital-tecnico.html">Servicios</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
 {% include footer.html %}
 
 {% include scripts.html %}
+
+</body>

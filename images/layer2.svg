@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="440px" viewBox="0 0 500 440" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.1 (12002) - http://www.bohemiancoding.com/sketch -->
+    <title>layer2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup">
+            <g id="layer2" sketch:type="MSLayerGroup">
+                <rect id="Rectangle-2-Copy-2" fill-opacity="0.2" fill="#9AF7D3" sketch:type="MSShapeGroup" x="20" y="227" width="220" height="184"></rect>
+                <rect id="Rectangle-2-Copy" fill-opacity="0.2" fill="#9AF7D3" sketch:type="MSShapeGroup" x="262" y="27" width="220" height="384"></rect>
+                <rect id="Rectangle-2" fill-opacity="0.2" fill="#9AF7D3" sketch:type="MSShapeGroup" x="20" y="27" width="220" height="184"></rect>
+                <rect id="Rectangle-1-Copy" stroke-opacity="0.4" stroke="#9AF7D3" sketch:type="MSShapeGroup" x="0" y="0" width="500" height="440"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
