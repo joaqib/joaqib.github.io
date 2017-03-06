@@ -34,7 +34,7 @@ layout: default
             <textarea class="w-input" data-name="informacion" id="informacion" maxlength="5000" name="informacion" placeholder="Servicio express para salvar al mundo"></textarea>
           </div>
           <div class="contact-cover__cta-container">
-            <input class="w-button" data-wait="Please wait..." type="submit" value="Submit">
+            <input class="w-button" data-wait="Please wait..." type="submit" value="Submit" onclick="__gaTracker('send', 'event', 'form-submission', 'click', 'contact-page-cta');">
           </div>
         </form>
         <div class="w-form-done">
