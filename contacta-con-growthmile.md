@@ -33,8 +33,8 @@ layout: default
             <label class="contact-cover__label" for="informacion">Información sobre tu negocio:</label>
             <textarea class="w-input" data-name="informacion" id="informacion" maxlength="5000" name="informacion" placeholder="Servicio express para salvar al mundo"></textarea>
           </div>
-              <input type="text" name="_gotcha" style="display:none" />
-              <input type="hidden" name="_next" value="//growthmile.com/nos-ponemos-a-trabajar.html" />
+          <input type="text" name="_gotcha" style="display:none" />
+          <input type="hidden" name="_next" value="//growthmile.com/nos-ponemos-a-trabajar.html" />
           <div class="contact-cover__cta-container">
             <input class="w-button" data-wait="Please wait..." type="submit" value="Submit">
           </div>
