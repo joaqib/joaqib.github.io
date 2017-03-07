@@ -7,7 +7,7 @@ layout: default
     <div class="contact-cover__container w-container">
       <h3 class="contact-cover__title">Rellena el formulario para que nos pongamos en contacto contigo</h3>
       <div class="contact-cover__card w-form">
-        <form class="contact-cover__form" data-name="Email Form" id="email-form" name="email-form" action="https://formspree.io/joaquin@growthmile.com" method="POST">
+        <form class="contact-cover__form" data-name="Email Form" id="contactform" name="email-form" method="POST">
           <div class="contact-cover__form__row">
             <label class="contact-cover__label" for="name">Nombre:</label>
             <input class="w-input" data-name="Name" id="name" maxlength="256" name="name" placeholder="Barry Allen" required="required" type="text">
@@ -33,10 +33,16 @@ layout: default
             <label class="contact-cover__label" for="informacion">Información sobre tu negocio:</label>
             <textarea class="w-input" data-name="informacion" id="informacion" maxlength="5000" name="informacion" placeholder="Servicio express para salvar al mundo"></textarea>
           </div>
+              <input type="text" name="_gotcha" style="display:none" />
+              <input type="hidden" name="_next" value="//growthmile.com/nos-ponemos-a-trabajar.html" />
           <div class="contact-cover__cta-container">
-            <input class="w-button" data-wait="Please wait..." type="submit" value="Submit" onclick="__gaTracker('send', 'event', 'form-submission', 'click', 'contact-page-cta');">
+            <input class="w-button" data-wait="Please wait..." type="submit" value="Submit">
           </div>
         </form>
+        <script>
+            var contactform =  document.getElementById('contactform');
+            contactform.setAttribute('action', '//formspree.io/' + 'joaquin' + '@' + 'growthmile' + '.' + 'com');
+        </script>
         <div class="w-form-done">
           <div>Thank you! Your submission has been received!</div>
         </div>
