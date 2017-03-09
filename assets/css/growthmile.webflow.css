@@ -677,6 +677,9 @@ html.w-mod-js *[data-ix="cover-illustration"] {
   .title {
     color: #fff;
   }
+  .home-cover__title.title {
+    color: #000;
+  }
   .mobile-nav {
     background-color: #000;
     color: #fff;
